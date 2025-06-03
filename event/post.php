@@ -158,6 +158,14 @@
             <?php endforeach; ?>
         </div>
     <?php endif; ?>
+<!-- Nút “Tạo bài viết mới” cố định ở góc dưới bên phải -->
+<a href="create_post.php"
+   class="btn btn-success"
+   style="position: fixed; bottom: 20px; right: 20px; z-index: 999;">
+  <i class="fa-solid fa-plus"></i> Create a New Post
+</a>
+
+
 
     <!-- HTML page -->
     <nav aria-label="Page navigation example">
